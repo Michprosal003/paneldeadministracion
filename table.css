@@ -1,0 +1,213 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    }
+    
+    
+    
+    .header {
+    padding: 15px;
+    background-color: cornflowerblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    
+    
+    
+    
+    .side-bar-left {
+    width: 250px;
+    background-color: darkorange;
+    min-height: 200vh;
+    transition: 500ms width;
+    
+    }
+    
+    
+    
+    
+    #navbar {
+    
+    display: inline-block;
+    margin-left: 1050px;
+    transition: 200ms color;
+    
+    }
+    
+    
+    
+    #checkbox{
+    
+    display: none;
+    
+    
+    }
+    
+    
+    #checkbox:checked ~ .body .side-bar-left {
+    
+    width: 100px;
+    
+    }
+    
+    
+    
+    #checkbox:checked ~ .body .side-bar-left .user-perfil {
+    visibility: hidden;
+    
+    }
+    
+    
+    #checkbox:checked ~ .body .side-bar-left a span{
+    display: none;
+    
+    }
+    
+    
+    
+    .side-bar-left ul li a {
+    text-decoration: none;
+    padding: 5px;
+    }
+    
+    
+    .side-bar-left ul li a i {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    
+    
+    
+    
+    }
+    
+    
+    .side-bar-left ul li:hover {
+    background-color: aqua;
+    
+    
+    }
+    
+    
+    
+    .u-name {
+    color: white;
+    
+    
+    }
+    
+    
+    .u-name b {
+    color: darkgreen;
+    padding: 10px;
+    
+    
+    }
+    
+    .u-name {
+    padding-left: 15px;
+    font-size: 20px;
+    
+    
+    
+    }
+    
+    
+    .header i {
+    color: black;
+    opacity: 1.8;
+    }
+    
+    .header i:hover {
+    
+    opacity:1;
+    color: aliceblue;
+    
+    }
+    
+    
+    
+    
+    .user-perfil .perfil{
+    width: 50%;
+    border-radius: 50%;
+    
+    
+    }
+    
+    
+    
+    .user-perfil {
+    text-align: center;
+    padding-left: 15px;
+    padding-top: 15px;
+    
+    }
+    
+    
+    
+    
+    .side-bar-left ul {
+    margin-left: 15px;
+    list-style: none;
+    
+    
+    }
+    
+    
+    
+    .side-bar-left ul li {
+    padding-left: 15px;
+    padding: 15px;
+    text-overflow: ellipsis;
+    transition: 500ms background;
+    overflow: hidden;
+    white-space: nowrap;
+    }
+    
+
+
+.body {
+
+
+    display: flex;
+}
+
+
+    .section-1{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flexbox;
+     
+
+
+
+
+    }
+
+
+    .paginacion{
+      border: 1px solid darkorange;
+      padding: 15px;
+      display: inline-block;
+      text-decoration: none;
+      background-color: black;
+      color: white;
+      opacity: 0.8;
+
+
+    }
+
+
+    .paginacion:hover {
+opacity:1
+
+
+    }
